@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module allows C & XS-code creation "on-the-fly", i.e. while your
 script is running.
-	
+
 %description -l pl
 Ten modu³ pozwala na tworzenie kodu C i XS "w locie", czyli w trakcie
 dzia³ania skryptu.
@@ -30,7 +30,7 @@ dzia³ania skryptu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

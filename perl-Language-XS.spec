@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Language
-%define	pnam	XS
+%define		pdir	Language
+%define		pnam	XS
 Summary:	Language::XS Perl module - write XS code on the fly
 Summary(pl):	Modu³ Perla Language::XS - tworzenie kodu XS w locie
 Name:		perl-Language-XS

@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	XS
 Summary:	Language::XS Perl module - write XS code on the fly
-Summary(pl):	Modu≥ Perla Language::XS - tworzenie kodu XS w locie
+Summary(pl.UTF-8):   Modu≈Ç Perla Language::XS - tworzenie kodu XS w locie
 Name:		perl-Language-XS
 Version:	0.01
 Release:	3
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module allows C & XS-code creation "on-the-fly", i.e. while your
 script is running.
 
-%description -l pl
-Ten modu≥ pozwala na tworzenie kodu C i XS "w locie", czyli w trakcie
-dzia≥ania skryptu.
+%description -l pl.UTF-8
+Ten modu≈Ç pozwala na tworzenie kodu C i XS "w locie", czyli w trakcie
+dzia≈Çania skryptu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	XS
 Summary:	Language::XS Perl module - write XS code on the fly
-Summary(pl.UTF-8):   Moduł Perla Language::XS - tworzenie kodu XS w locie
+Summary(pl.UTF-8):	Moduł Perla Language::XS - tworzenie kodu XS w locie
 Name:		perl-Language-XS
 Version:	0.01
 Release:	3

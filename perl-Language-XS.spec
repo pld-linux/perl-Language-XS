@@ -8,8 +8,9 @@ Version:	0.02
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Language/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f9a0c9e890de595669b1efc38c576188
+URL:		http://search.cpan.org/dist/Language-XS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	gcc

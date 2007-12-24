@@ -4,12 +4,12 @@
 Summary:	Language::XS Perl module - write XS code on the fly
 Summary(pl.UTF-8):	Moduł Perla Language::XS - tworzenie kodu XS w locie
 Name:		perl-Language-XS
-Version:	0.01
-Release:	3
+Version:	0.02
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9b1aefc477bb425a101bcab054c2ad34
+# Source0-md5:	f9a0c9e890de595669b1efc38c576188
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	gcc
